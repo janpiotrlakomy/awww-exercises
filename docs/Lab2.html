@@ -1,0 +1,117 @@
+---
+layout: default
+title: "Lab2"
+permalink: Lab2.html
+---
+
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Lab2
+        </title>
+    </head>
+
+    <body>
+        <!-- HEADER/FOOTER/ARTICLE(1.)-->
+        <header>
+            <h1>
+                This is a header.
+            </h1>
+        </header>
+
+        <article>
+            <!-- TABLE (2.)-->
+            <table>
+                <caption>
+                  Favourite programming languages table.
+                </caption>
+                <tr>
+                  <th scope="col">Person</th>
+                  <th scope="col">Favourite programming language</th>
+                </tr>
+                <tr>
+                  <th scope="row">Person1</th>
+                  <td>Python</td>
+                </tr>
+                <tr>
+                  <th scope="row">Person2</th>
+                  <td>Python</td>
+                </tr>
+                <tr>
+                  <th scope="row">Person3</th>
+                  <td>Assembly language</td>
+                </tr>
+            </table>
+
+            <!-- LIST (3.)-->
+            <ul>
+                <caption>
+                    Top 3 most popular programming language list:
+                </caption>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+            </ul> 
+
+            <!--  (5.)-->
+            the
+            <strong>
+                best
+            </strong>
+            programming language:
+
+
+            <!--(6.)-->
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png">
+        </article>
+
+        <p>
+            <form>
+                <label for="a1">Input your favourite programming language:</label><br>    
+                <input type="text" id="a1" name="a1"><br>
+                <button type="button" onclick="alert('Answer submitted')">Submit your answer</button> 
+            </form>
+        </p>
+
+        <p>
+            <label for="b1">Select the best programming language:</label><br>  
+            <select name="b1" id="b1">
+                <optgroup label="Object-Oriented languages">
+                  <option value="Java">Java</option>
+                  <option value="C#">C#</option>
+                </optgroup>
+                <optgroup label="Procedural languages">
+                  <option value="C">C</option>
+                  <option value="Fortran">Fortran</option>
+                </optgroup>
+              </select>
+        </p>
+
+        <p>
+            <details>
+                <summary>Python</summary>
+                <p>
+                    Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+                </p>
+            </details>
+        </p>
+
+        
+        <p>
+            <label for="c1">Task progress:</label>
+            <progress id="c1" value="8" max="9"> </progress> 
+        </p>
+
+
+
+        <footer>
+            <h2>
+                This is a footer.
+            </h2>
+        </footer>   
+    </body>
+</html>
