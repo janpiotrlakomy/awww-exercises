@@ -8,138 +8,159 @@ permalink: /lab3//
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../output.css" rel="stylesheet">
+        <link href="./output.css" rel="stylesheet">
         <title>
             Lab2
         </title>
     </head>
 
     <body class="my-5 mx-20 bg-yellow-200">
-        <!-- HEADER/FOOTER/ARTICLE(1.)-->
-        <header>
-            <h1 class="text-sky-400">
-                This is a header.
-            </h1>
-        </header>
+        <div class="grid-container">
+            <!-- HEADER/FOOTER/ARTICLE(1.)-->
+            <div class="item_h bg-violet-500">
+                <h1 class="text-sky-400 text-2xl text-center">
+                    This is a header.
+                </h1>
+            </div>
 
-        <article class="bg-red-200 shadow-2xl">
-            <!-- TABLE (2.)-->
-            <table class="bg-green-200 w-70 border-separate border-spacing-2 table-auto border-4 border-slate-500">
-                <caption>
-                  Programming languages table.
-                </caption>
-                <thead>
-                    <tr>
-                      <th class="border border-blue-500">Name</th>
-                      <th class="border border-blue-500">Paradigm</th>
-                      <th class="border border-blue-500">Release date</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="border-2 border-yellow-300">Pascal</td>
-                      <td class="border-2 border-yellow-300">Imperative</td>
-                      <td class="border-2 border-green-500">1970</td>
-                    </tr>
-                    <tr>
-                      <td class="border-2 border-yellow-300">Haskell</td>
-                      <td class="border-2 border-yellow-300">Purely functional</td>
-                      <td class="border-2 border-green-500">1990</td>
-                    </tr>
-                    <tr>
-                      <td class="border-2 border-yellow-300">Smalltalk</td>
-                      <td class="border-2 border-yellow-300">Object-oriented</td>
-                      <td class="border-2 border-green-500">1972</td>
-                    </tr>
-                  </tbody>
-            </table>
+            <div class="item_menu bg-emerald-400">
+                <h2 class="text-xl text-center">
+                    Menu
+                </h1>
 
-            <!-- LIST (3.)-->
-            <ul>
-                <caption>
-                    Top 3 most popular programming language list:
-                </caption>
-                <li>Python</li>
-                <li>C</li>
-                <li>C++</li>
-            </ul>
+                <ul class="list-disc">
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>Go</li>
+                    <li>Visual Basic</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
 
-            <!--  (5.)-->
-            the
-            <strong class="animate-ping">
-                best
-            </strong>
-            programming language:
+            <div class="item_main bg-yellow-400">
+                <article class="bg-red-200 shadow-2xl">
+                    <!-- TABLE (2.)-->
+                    <table class="bg-green-200 w-70 border-separate border-spacing-2 table-auto border-4 border-slate-500">
+                        <caption>
+                        Programming languages table.
+                        </caption>
+                        <thead>
+                            <tr>
+                            <th class="border border-blue-500">Name</th>
+                            <th class="border border-blue-500">Paradigm</th>
+                            <th class="border border-blue-500">Release date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td class="border-2 border-yellow-300">Pascal</td>
+                            <td class="border-2 border-yellow-300">Imperative</td>
+                            <td class="border-2 border-green-500">1970</td>
+                            </tr>
+                            <tr>
+                            <td class="border-2 border-yellow-300">Haskell</td>
+                            <td class="border-2 border-yellow-300">Purely functional</td>
+                            <td class="border-2 border-green-500">1990</td>
+                            </tr>
+                            <tr>
+                            <td class="border-2 border-yellow-300">Smalltalk</td>
+                            <td class="border-2 border-yellow-300">Object-oriented</td>
+                            <td class="border-2 border-green-500">1972</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- LIST (3.)-->
+                    <ul>
+                        <caption>
+                            Top 3 most popular programming language list:
+                        </caption>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                    </ul>
+
+                    <!--  (5.)-->
+                    the
+                    <strong class="animate-ping">
+                        best
+                    </strong>
+                    programming language:
 
 
-            <!--(6.)-->
+                    <!--(6.)-->
 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png">
-        </article>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png">
+                </article>
 
-        <p>
-            <form>
-                <label for="a1">Input your favourite programming language:</label><br>
-                <input type="text" id="a1" name="a1"><br>
-                <button class="bg-indigo-600" type="button" onclick="alert('Answer submitted')">Submit your answer</button>
-            </form>
-        </p>
-
-        <p>
-            <label for="b1">Select the best programming language:</label><br>
-            <select name="b1" id="b1">
-                <optgroup label="Object-Oriented languages">
-                  <option value="Java">Java</option>
-                  <option value="C#">C#</option>
-                </optgroup>
-                <optgroup label="Procedural languages">
-                  <option value="C">C</option>
-                  <option value="Fortran">Fortran</option>
-                </optgroup>
-              </select>
-        </p>
-
-        <p>
-            <details>
-                <summary class="text-cyan-600">Python</summary>
                 <p>
-                    Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+                    <form>
+                        <label for="a1">Input your favourite programming language:</label><br>
+                        <input type="text" id="a1" name="a1"><br>
+                        <button class="bg-indigo-600" type="button" onclick="alert('Answer submitted')">Submit your answer</button>
+                    </form>
                 </p>
-            </details>
-        </p>
+
+                <p>
+                    <label for="b1">Select the best programming language:</label><br>
+                    <select name="b1" id="b1">
+                        <optgroup label="Object-Oriented languages">
+                        <option value="Java">Java</option>
+                        <option value="C#">C#</option>
+                        </optgroup>
+                        <optgroup label="Procedural languages">
+                        <option value="C">C</option>
+                        <option value="Fortran">Fortran</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <details>
+                        <summary class="text-cyan-600">Python</summary>
+                        <p>
+                            Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+                        </p>
+                    </details>
+                </p>
 
 
-        <p>
-            <label for="c1">Task progress:</label>
-            <progress id="c1" value="8" max="9"> </progress>
-        </p>
+                <p>
+                    <label for="c1">Task progress:</label>
+                    <progress id="c1" value="8" max="9"> </progress>
+                </p>
 
-        <p>
-            <h2>
-                flex row:
-            </h2>
-        </p>
-        <div class="flex flex-row border-4 border-orange-500">
-            <div class="flex-none w-32 border-4 border-orange-500">01 flex-none</div>
-            <div class="flex-auto w-32  border-4 border-orange-500">ABCDEFGHIJKLMNOPR</div>
-            <div class="flex-none w-64 border-4 border-orange-500">03 flex-none</div>
+                <p>
+                    <h2>
+                        flex row:
+                    </h2>
+                </p>
+                <div class="flex flex-row border-4 border-orange-500">
+                    <div class="flex-none w-32 border-4 border-orange-500">01 flex-none</div>
+                    <div class="flex-auto w-32  border-4 border-orange-500">ABCDEFGHIJKLMNOPR</div>
+                    <div class="flex-none w-64 border-4 border-orange-500">03 flex-none</div>
+                </div>
+
+                <p>
+                    <h2>
+                        flex col:
+                    </h2>
+                </p>
+                <div class="flex flex-col h-60 border-4 border-orange-500">
+                    <div class="flex-auto h-10 border-4 border-orange-500">01</div>
+                    <div class="flex-auto border-4 border-orange-500">02 <br> 02</div>
+                    <div class="flex-none h-10 border-4 border-orange-500">03 flex none</div>
+                </div>
+            </div>
+
+            <div class="item_f ">
+                <h2 class="text-red-600 text-2xl text-center">
+                    This is a footer.
+                </h2>
+            </div>
         </div>
-
-        <p>
-            <h2>
-                flex col:
-            </h2>
-        </p>
-        <div class="flex flex-col h-60 border-4 border-orange-500">
-            <div class="flex-auto h-10 border-4 border-orange-500">01</div>
-            <div class="flex-auto border-4 border-orange-500">02 <br> 02</div>
-            <div class="flex-none h-10 border-4 border-orange-500">03 flex none</div>
-        </div>
-
-        <footer>
-            <h2 class="text-red-600">
-                This is a footer.
-            </h2>
-        </footer>
     </body>
 </html>
